@@ -1,0 +1,1 @@
+select * from workorder where wonum in ('100','20')

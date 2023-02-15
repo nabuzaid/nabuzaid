@@ -1,0 +1,2 @@
+select *from workorder w where Worktype ='CO'and REPORTDATE BETWEEN TO_DATE ('2018/12/01', 'yyyy/mm/dd')AND TO_DATE ('2020/07/31', 'yyyy/mm/dd')--and 
+-- w.location like'1%'OR w.location like'2%' OR w.location like'3%' 
